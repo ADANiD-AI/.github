@@ -1,4 +1,4 @@
-   name: "CodeQL Security Analysis"
+name: "CodeQL Security Analysis"
 
 on:
   push:
@@ -35,5 +35,3 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
-
-پل ریکوئسٹ کی تفصیلات (Pull Request Details)
